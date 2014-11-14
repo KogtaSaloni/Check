@@ -1,0 +1,2 @@
+@microposts.each do |micropost|
+  = micropost_to "upvote", like_micropost_path(micropost), method: :put
